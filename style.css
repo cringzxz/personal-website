@@ -1,0 +1,259 @@
+*{
+	margin: 0;
+	padding: 0;
+	}
+	body{
+	background: url('bg.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	}
+
+.header{
+	height: 100vh;
+}
+.navbar-style{
+	background-color: violet;
+	margin-top: -20px
+}
+.logo{
+	width: 45%;
+	height: auto;
+}
+.icon-bar{
+	background-color: white;
+}
+.main-container{
+	padding-top: 5px;
+}
+
+ul li a{
+	padding: 10px 10px;
+	font-size: 15px;
+	color: black;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 9px;
+	display: block;
+}
+.navbar-style ul li a:hover{
+	background-color: red;
+	color: white;
+	transition: all 1s ease 0s;
+}
+
+.gallery{
+	border: 1px solid red;
+	padding: 30px 30px;
+	background-color: violet;
+	margin: 5% 5%;
+}
+.gallery img{
+	width: 90%;
+	height: auto;
+	margin-left: 5%;
+}
+
+.responsive{
+	padding: 15px;
+	float: center;
+	wdith: 25%;
+}
+
+.banner-responsive{
+	padding: 15px;
+	float: center;
+	wdith: 25%;
+}
+.banner-gallery{
+	border: 1px solid purple;
+	padding: 20px 20px;
+	background: url('banner.jpg');
+	background-position: 200px;
+	margin-top: -20px;
+}
+.banner-des{
+	font-size: 30px;
+	color: white;
+	-webkit-text-stroke: 0.2px pink;
+	padding: 40px 30px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+}
+footer a{
+	color: pink;
+	padding: 10px 20px;
+	font-weight: bold;
+}
+footer{
+	background-color:violet;
+	position: relative;
+	height: 200px;
+	margin-top: 390px;
+	clear: both;
+	color: black;
+	padding: 10px 20px;
+	font-weight: bold;
+}
+footer img{
+	width: 15%;
+	padding: 15px 10px;
+}
+.resume{
+	text-align: left;
+	font-size: 30px;
+	background-color: violet;
+	padding: 40px 30px;
+	margin: 5% 5%;
+	border-radius: 20px;
+}
+.activity{
+	background-color: violet;
+	font-size: 20px;
+}
+
+@media only screen and (min-width: 768px){
+
+	body{
+	background: url('bg.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	}
+
+.gallery img{
+	width: 70%;
+	height: auto;
+	margin-left: 15%;
+}
+.banner-responsive{
+	padding: 15px;
+	float: center;
+	wdith: 25%;
+}
+.banner-gallery{
+	border: 1px solid purple;
+	padding: 20px 20px;
+	background: url('banner.jpg');
+	background-position: 1650px;
+	margin-top: -20px;
+}
+.banner-des{
+	font-size: 75px;
+	color: white;
+	-webkit-text-stroke: 3px puple;
+	padding: 40px 30px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+}
+
+footer img{
+	width: 7%;
+	padding: 15px 10px;
+}
+
+footer{
+	background-color: violet;
+	position: relative;
+	height: 230px;
+	margin-top: 390px;
+	clear: both;
+	color: black;
+	padding: 10px 20px;
+	font-weight: bold;
+}
+.resume{
+	text-align: left;
+	font-size: 30px;
+	background-color: violet;
+	padding: 40px 30px;
+	margin: 5% 5%;
+	border-radius: 20px;
+}
+.activity{
+	background-color: violet;
+	font-size: 30px;
+}
+}
+
+@media only screen and (min-width: 1024px){
+	body{
+	background: url('bg.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	}
+	.tgallery img{
+	width: 20%;
+	height: auto;
+	margin-left: 40%;
+}
+
+.banner-responsive{
+	padding: 15px;
+	float: center;
+	wdith: 25%;
+}
+.banner-gallery{
+	border: 1px solid red;
+	padding: 20px 20px;
+	background: url('banner.jpg');
+	background-position: 340px 310px;
+	margin-top: -5px;
+}
+.banner-des{
+	font-size: 75px;
+	color: pink;
+	padding: 40px 30px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+}
+.des{
+	padding: 15px;
+	text-align: justify;
+	color: red;
+	text-indent: 30px;
+	font-size: 25px;
+}
+.cgallery img{
+	width: 5%;
+	padding: 10px;
+}
+footer img{
+	width: 5%;
+	padding: 15px 10px;
+}
+footer{
+	background-color: violet;
+	position: relative;
+	height: 230px;
+	margin-top: 390px;
+	clear: both;
+	color: black;
+	padding: 10px 20px;
+	font-weight: bold;
+}
+.resume{
+	text-align: left;
+	font-size: 30px;
+	background-color: violet;
+	padding: 10px 20px;
+	margin: 5% 20%;
+	margin-right: 50%;
+	border-radius: 20px;
+}
+.fldes{
+	text-align: center;
+	font-size: 50px;
+	color: black;
+	-webkit-text-stroke: 1px red;
+	
+}
+.activity{
+	background-color: violet;
+	font-size: 30px;
+}
+}
